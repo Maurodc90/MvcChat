@@ -1,7 +1,7 @@
 package com.maurodelcore.mvcChat.model;
 
-import org.springframework.stereotype.Component;
 
+// Object Message store the text of the message that user exchange
 public class Message {
     private String text;
 
@@ -13,7 +13,4 @@ public class Message {
         return text;
     }
 
-    public void setText(String text) {
-        this.text = text;
-    }
 }

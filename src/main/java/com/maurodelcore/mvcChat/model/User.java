@@ -1,7 +1,7 @@
 package com.maurodelcore.mvcChat.model;
 
-import org.springframework.stereotype.Component;
 
+// Object User store the name, will be set as sender or recipent
 public class User {
     private String name;
 
@@ -13,7 +13,4 @@ public class User {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 }
