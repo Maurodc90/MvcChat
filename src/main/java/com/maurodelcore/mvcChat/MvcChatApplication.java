@@ -9,6 +9,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Entry point for the MvcChat Spring Boot application.
  * Implements {@link CommandLineRunner} to start the chat session
  * after the application context is fully initialized.
+ *
+ * @author Mauro Del Core
+ * @version 1.0
  */
 @SpringBootApplication
 public class MvcChatApplication implements CommandLineRunner {
